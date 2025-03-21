@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Hindi Code</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        textarea { width: 80%; height: 100px; margin-bottom: 10px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>Secret Hindi Code Converter</h2>
+
+    <textarea id="inputText" placeholder="Type your message..."></textarea><br>
+    <button onclick="encodeMessage()">Encode</button>
+    <button onclick="decodeMessage()">Decode</button>
+
+    <h3>Output:</h3>
+    <textarea id="outputText" readonly></textarea>
+
+    <script>
+        const codes = {
+            "पआ": "पापा आ रहे हैं",
+            "मा आ": "माँ आ रही हैं",
+            "भआ": "भाई आ रहा है",
+            "बआ": "बहन आ रही है",
+            "फन": "फोन मत करो",
+            "कग": "किसी को कुछ कहना मत",
+            "मब": "मुझे ब्लॉक कर दो",
+            "हब": "हम बाद में बात करेंगे",
+            "नप": "नई प्रोफ़ाइल से मैसेज करो",
+            "तअ": "तस्वीरें हटा दो",
+            "सआ": "स्क्रीनशॉट मत लेना",
+            "इक": "इंस्टाग्राम का चैट क्लियर कर दो"
+        };
+
+        function encodeMessage() {
+            let text = document.getElementById("inputText").value;
+            let words = text.split(" ");
+            let encodedText = words.map(word => codes[word] || word).join(" ");
+            document.getElementById("outputText").value = encodedText;
+        }
+
+        function decodeMessage() {
+            let text = document.getElementById("inputText").value;
+            let reverseCodes = Object.fromEntries(Object.entries(codes).map(([k, v]) => [v, k]));
+            let words = text.split(" ");
+            let decodedText = words.map(word => reverseCodes[word] || word).join(" ");
+            document.getElementById("outputText").value = decodedText;
+        }
+    </script>
+
+</body>
+</html>
