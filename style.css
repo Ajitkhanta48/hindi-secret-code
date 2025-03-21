@@ -5,21 +5,24 @@ body {
 }
 
 .navbar {
-    background: #007bff;
+    background: #ffffff; /* White background */
     padding: 10px;
     text-align: center;
+    border-bottom: 2px solid #ddd; /* Light grey border */
 }
 
 .navbar a {
-    color: white;
+    color: #007bff; /* Blue text */
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .navbar a:hover {
-    background: #0056b3;
+    background: #f0f0f0; /* Light grey hover effect */
+    border-radius: 5px;
 }
 
 .section {
