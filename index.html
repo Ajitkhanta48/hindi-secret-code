@@ -1,49 +1,93 @@
-<!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secret Hinglish Code</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device=device-width, initial-scale=1.0">
+    <title>Hinglish Secret Code</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <a href="#" onclick="showSection('home')">Home</a>
-        <a href="#" onclick="showSection('encoder-decoder')">Encoder-Decoder</a>
-        <a href="#" onclick="showSection('about')">About</a>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#encoder-decoder">Encoder-Decoder</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
 
     <!-- Home Section -->
-    <div id="home" class="section active">
-        <h2>🔒 Welcome to Secret Hinglish Code Converter 🔒</h2>
-        <p>Yeh ek secret message converter hai jo aapko private messages bhejne me madad karega!</p>
-        <p>Use "Encoder-Decoder" section to convert messages.</p>
-    </div>
+    <section id="home">
+        <h1>🔐 Welcome to Hinglish Secret Code!</h1>
+        <p>Ever wanted to send <strong>secret messages</strong> without anyone understanding them? With <strong>Hinglish Secret Code</strong>, you can <strong>encode your messages into a unique secret code</strong> and share them securely. Only the person with the decoder can read them!</p>
+        
+        <h2>✨ Why Use This Tool?</h2>
+        <ul>
+            <li>✔ <strong>Privacy First</strong> – Your messages stay safe and unreadable to others.</li>
+            <li>✔ <strong>Fast & Easy</strong> – Encode and decode messages in seconds.</li>
+            <li>✔ <strong>Unique Encoding Algorithm</strong> – Ensures every message is <strong>secure and consistent</strong>.</li>
+            <li>✔ <strong>No Data Stored</strong> – We respect your privacy, and your messages are never saved.</li>
+        </ul>
+
+        <h2>🛠 How It Works?</h2>
+        <ol>
+            <li>1️⃣ <strong>Type your message</strong> in Hinglish.</li>
+            <li>2️⃣ Click <strong>"Encode"</strong> – Your message is instantly converted into a secret code.</li>
+            <li>3️⃣ Share the <strong>encrypted message</strong> with anyone.</li>
+            <li>4️⃣ The receiver pastes the <strong>code into the decoder</strong> to reveal the original text.</li>
+        </ol>
+
+        <h2>🚀 Get Started Now!</h2>
+        <p>🔹 Navigate to the <strong>Encoder-Decoder</strong> section to <strong>start encrypting your messages</strong>.</p>
+        <p>🔹 Want to know more? Check out the <strong>About</strong> section for details.</p>
+    </section>
 
     <!-- Encoder-Decoder Section -->
-    <div id="encoder-decoder" class="section">
-        <div class="container">
-            <h2>🔒 Secret Hinglish Code Converter 🔒</h2>
-            <textarea id="inputText" placeholder="Apna message likho..."></textarea><br>
-            <button class="btn-encode" onclick="encodeMessage()">Encode</button>
-            <button class="btn-decode" onclick="decodeMessage()">Decode</button>
-            <button class="btn-clear" onclick="clearText()">Clear</button>
-            <h3>Output:</h3>
-            <textarea id="outputText" readonly></textarea><br>
-            <button class="btn-copy" onclick="copyText()">📋 Copy</button>
-        </div>
-    </div>
+    <section id="encoder-decoder">
+        <h2>🔏 Encode & Decode Messages</h2>
+        <textarea id="inputText" placeholder="Type your message..."></textarea><br>
+        <button onclick="encodeMessage()">Encode</button>
+        <button onclick="decodeMessage()">Decode</button>
+        <h3>Output:</h3>
+        <textarea id="outputText" readonly></textarea>
+    </section>
 
     <!-- About Section -->
-    <div id="about" class="section">
-        <h2>About This Tool</h2>
-        <p>Yeh ek simple web tool hai jo private communication ke liye short codes convert karta hai.</p>
-        <p>Banaya gaya sirf **secure aur private messaging** ke liye.</p>
-    </div>
+    <section id="about">
+        <h2>ℹ️ About Hinglish Secret Code</h2>
+        <p>Hinglish Secret Code is a simple yet powerful tool designed to **encrypt your messages** into a **unique coded format** to keep your conversations private. It ensures that **only the intended person can decode** and read your messages.</p>
+
+        <h3>🔍 Features</h3>
+        <ul>
+            <li>🔹 **Custom Encryption Algorithm** – No one else can guess your encoded messages.</li>
+            <li>🔹 **Fast Encoding & Decoding** – Convert messages instantly.</li>
+            <li>🔹 **Works Offline** – No internet required for secure communication.</li>
+            <li>🔹 **Easy to Use** – Just type, encode, and share!</li>
+        </ul>
+
+        <h3>📌 Who Can Use This?</h3>
+        <ul>
+            <li>✔ **Friends & Couples** – Secretly chat without worrying.</li>
+            <li>✔ **Students** – Share coded messages during class 😉.</li>
+            <li>✔ **Privacy Enthusiasts** – Keep your messages safe from prying eyes.</li>
+        </ul>
+
+        <h3>📜 Open Source Project</h3>
+        <p>This project is **open-source** and available on **GitHub**. You are welcome to contribute, improve, or suggest new features.</p>
+        <p>👉 Visit the **GitHub Repository**: <a href="https://github.com/Ajitkhanta48/hindi-secret-code" target="_blank">Hinglish Secret Code</a></p>
+    </section>
+
+    <!-- Footer Section with Social Media Links -->
+    <footer>
+        <p>© 2025 Hinglish Secret Code | Built with ❤️ by <a href="https://github.com/Ajitkhanta48" target="_blank">Ajit Khanta</a></p>
+        <p>
+            🔗 Follow me on:  
+            <a href="https://github.com/Ajitkhanta48" target="_blank">GitHub</a> |  
+            <a href="https://instagram.com/Ajitkhanta48" target="_blank">Instagram</a> |  
+            <a href="https://x.com/Ajitkhanta1?t=YHXb6CCN5Q9U-_27zG-Tdw&s=09" target="_blank">Twitter</a>
+        </p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
