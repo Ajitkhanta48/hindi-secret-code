@@ -14,15 +14,20 @@ A **web-based encryption and decryption tool** that allows users to encode and d
 ---
 
 ## **📌 Live Preview**
-🚀 **Try it out here:** [Hinglish Secret Code Web App](https://yourgithubusername.github.io/hinglish-secret-code/)  
+🚀 **Try it out here:** [Hinglish Secret Code Web App](https://yourgithubusername.github.io/hinglish-secret-code/) 
 
 ---
 
 ## **📁 Project Structure**
 
-📂 Hinglish-Secret-Code ┣ 📜 index.html        # Main HTML file ┣ 📜 styles.css        # Styling for the webpage 
+📂 Hinglish-Secret-Code
+┣ 📜 index.html        # Main HTML file
 
-┣ 📜 script.js         # JavaScript logic for encoding & decoding ┣ 📜 data.json         # Stores previously encoded messages 
+┣ 📜 styles.css        # Styling for the webpage 
+
+┣ 📜 script.js         # JavaScript logic for encoding & decoding
+
+┣ 📜 data.json         # Stores previously encoded messages 
 
 ┗ 📜 README.md         # Project documentation
 
@@ -30,7 +35,6 @@ A **web-based encryption and decryption tool** that allows users to encode and d
 
 ## **💻 Installation (For Developers)**
 Want to modify or improve this project? Follow these steps:
-
 
 git clone https://github.com/yourgithubusername/hinglish-secret-code.git
 
@@ -43,23 +47,26 @@ open index.html
 
 ## **📖 How to Use**
 
-1️⃣ Enter your message in Hinglish (e.g., "Papa aa rahe hain")
-2️⃣ Click on "Encode" → Your message is converted into a secret code
-3️⃣ Share the encoded message securely
-4️⃣ The receiver pastes the secret code and clicks "Decode" to see the original message
+**1️⃣** Enter your message in Hinglish (e.g., "Papa aa rahe hain")
+
+**2️⃣** Click on "Encode" → Your message is converted into a secret code
+
+**3️⃣** Share the encoded message securely
+
+**4️⃣** The receiver pastes the secret code and clicks "Decode" to see the original message
 
 
 ---
 
 ## **🛠️ Technologies Used**
 
-HTML → Structure of the webpage
+**HTML** → Structure of the webpage
 
-CSS → Styling for a clean and user-friendly interface
+**CSS** → Styling for a clean and user-friendly interface
 
-JavaScript → Custom algorithm for message encoding and decoding
+**JavaScript** → Custom algorithm for message encoding and decoding
 
-JSON → Stores previously encoded messages
+**JSON** → Stores previously encoded messages
 
 
 
@@ -93,8 +100,9 @@ This project is open-source and available under the MIT License.
 
 ## **📞 Contact**
 
-🔗 GitHub: Ajitkhanta48
-📧 Email: ajitkhanta@gmail.com
+🔗 GitHub: **Ajitkhanta48**
+
+📧 Email: **ajitkhanta@gmail.com**
 
 
 ---
