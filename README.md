@@ -21,6 +21,7 @@ A **web-based encryption and decryption tool** that allows users to encode and d
 ## **📁 Project Structure**
 
 📂 Hinglish-Secret-Code
+
 ┣ 📜 index.html        # Main HTML file
 
 ┣ 📜 styles.css        # Styling for the webpage 
