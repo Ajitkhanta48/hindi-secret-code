@@ -14,13 +14,13 @@ A **web-based encryption and decryption tool** that allows users to encode and d
 ---
 
 ## **📌 Live Preview**
-🚀 **Try it out here:** [Hinglish Secret Code Web App](https://yourgithubusername.github.io/hinglish-secret-code/) 
+🚀 **Try it out here:** [Hinglish Secret Code Web App](https://ajitkhanta48.github.io/hindi-secret-code/) 
 
 ---
 
 ## **📁 Project Structure**
 
-📂 Hinglish-Secret-Code
+📂 Hinglish-Secret-Codehttps://ajitkhanta48.github.io/hindi-secret-code/
 
 ┣ 📜 index.html        # Main HTML file
 
