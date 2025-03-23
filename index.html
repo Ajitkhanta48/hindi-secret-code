@@ -42,18 +42,22 @@
 
     <!-- Encoder-Decoder Section -->
     <div id="encoder-decoder" class="section">
-        <h2>🔏 Encode & Decode Messages</h2>
-        <textarea id="inputText" placeholder="Type your message..."></textarea><br>
-        <button onclick="encodeMessage()">Encode</button>
-        <button onclick="decodeMessage()">Decode</button>
-        <h3>Output:</h3>
-        <textarea id="outputText" readonly></textarea>
+        <div class="container">
+            <h2>🔒 Secret Hinglish Code Converter 🔒</h2>
+            <textarea id="inputText" placeholder="Apna message likho..."></textarea><br>
+            <button class="btn-encode" onclick="encodeMessage()">Encode</button>
+            <button class="btn-decode" onclick="decodeMessage()">Decode</button>
+            <button class="btn-clear" onclick="clearText()">Clear</button>
+            <h3>Output:</h3>
+            <textarea id="outputText" readonly></textarea><br>
+            <button class="btn-copy" onclick="copyText()">📋 Copy</button>
+        </div>
     </div>
 
     <!-- About Section -->
      <div id="about" class="section">
         <h2>ℹ️ About Hinglish Secret Code</h2>
-        <p>Hinglish Secret Code is a simple yet powerful tool designed to <b>encrypt your messages</b> into a <b>unique coded format</b> to keep your conversations private. It ensures that **only the intended person can decode** and read your messages.</p>
+        <p>Hinglish Secret Code is a simple yet powerful tool designed to <b>encrypt your messages</b> into a <b>unique coded format</b> to keep your conversations private. It ensures that <b>only the intended person can decode</b> and read your messages.</p>
 
         <h3>🔍 Features</h3>
         <ul>
