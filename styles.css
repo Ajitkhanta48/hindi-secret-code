@@ -74,7 +74,7 @@ button {
 footer {
     background-color: #f8f8f8;
     text-align: center;
-    padding: 8px;
+    padding: 3px;
     position: relative; /* Changed from fixed to relative */
     bottom: 0;
     width: 100%;
