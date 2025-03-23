@@ -32,6 +32,11 @@ body {
     text-align: center;
     min-height: calc(100vh); /* Ensures content is not overlapped by footer */
 }
+section ul,
+.section ol {
+    text-align: left; /* Ensures list items align left */
+    padding-left: 20px; /* Adds indentation */
+}
 
 .active {
     display: block;
