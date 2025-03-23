@@ -66,3 +66,21 @@ button {
 .btn-decode { background: #007bff; color: white; }
 .btn-clear { background: #dc3545; color: white; }
 .btn-copy { background: #ffc107; color: black; }
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
